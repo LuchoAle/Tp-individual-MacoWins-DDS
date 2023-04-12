@@ -1,6 +1,6 @@
 # Tp-individual-MacoWins-DDS
 
-!) Identificar los requerimientos:
+1) Identificar los requerimientos:
 
 Los requerimientos son las necesidades que tiene el usuario y se tienen que  ver plasmadas en el sistema solucion a implementar. Estos pueden ser requerimientos funcionales o no funcionales.
 
@@ -20,6 +20,12 @@ Requerimientos funcionales:
 Requerimientos no funcionales: No se especifican
 
 2) Presentar una solución usando el paradigma de objetos (pseudocódigo, diagrama de clases)
+
+
+3) Explicar todo lo que se considere necesario en prosa
+
+4) SI SE DESCARTA ALGUNA ALTERNATIVA DURANTE EL DESARROLLO DE LA SOLUCIÓN, O SI SE TIENE OTRA SOLUCIÓN, EXPLICARLA BREVEMENTE
+
 
 - Diagrama de clases: 
 
