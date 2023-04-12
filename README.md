@@ -20,3 +20,7 @@ Requerimientos funcionales:
 Requerimientos no funcionales: No se especifican
 
 2) Presentar una solución usando el paradigma de objetos (pseudocódigo, diagrama de clases)
+
+- Diagrama de clases: 
+
+![Diagrama de clases](https://user-images.githubusercontent.com/102762669/231598987-8ac8a61d-f0c7-4731-ba62-fee0fbbc85ca.jpg)
