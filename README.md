@@ -23,21 +23,27 @@ Requerimientos no funcionales: No se especifican
 
 - Diagrama de clases: 
 
-![Diagrama de clases](https://user-images.githubusercontent.com/102762669/231598987-8ac8a61d-f0c7-4731-ba62-fee0fbbc85ca.jpg)
+![Moc wins diagrama 2](https://user-images.githubusercontent.com/102762669/231790515-f6658b59-2508-4a49-900e-03dc6c36edfa.jpg)
 
 - Pseudocodigo:
 
-![image](https://user-images.githubusercontent.com/102762669/231605230-aef85c39-9a9d-4bcb-8ed9-72aa11db3173.png)
+![image](https://user-images.githubusercontent.com/102762669/231791007-3ac653a1-1e8e-4bf8-b661-350ed2ca7df0.png)
 
-![image](https://user-images.githubusercontent.com/102762669/231605289-31f12ff9-09c8-4f3a-96ec-8eda18c7a448.png)
+![image](https://user-images.githubusercontent.com/102762669/231791069-42b8b1ea-ee29-42f2-8634-3cdeee091278.png)
 
 
 3) Explicar todo lo que se considere necesario en prosa
 
 La clase registro tiene cargado en una lista todas las ventas y es la que se encarga de obtener la ganancia del dia en base a una fecha.
 
+Respecto a la interfaz estado y los estados: promocion y liquidacion, me di cuenta que realizan exactamente el mismo calculo pero con diferentes valores, es por eso que para ahorrar codigo decidi que liquidacion herede de promocion y solo se cambie el valor del atributo descuento.
+
 4) SI SE DESCARTA ALGUNA ALTERNATIVA DURANTE EL DESARROLLO DE LA SOLUCIÓN, O SI SE TIENE OTRA SOLUCIÓN, EXPLICARLA BREVEMENTE
 
 - Tenia pensado que existieran distintos registros para cada dia con las ventas de ese dia cargados en la clase. Pero si existiera una base de datos sería mejor cargar las ventas en base a los dias pedidos por una clase registro general.
 
+- Otra alternativa descartada: 
 
+![Diagrama de clases](https://user-images.githubusercontent.com/102762669/231598987-8ac8a61d-f0c7-4731-ba62-fee0fbbc85ca.jpg)
+
+La siguiente fue descartada debido a que solo se podian registrar ventas de un mismo tipo de prenda por lo que si el usuario queria realizar otra compra de otra prende se tendría que realizar una venta distinta y esto implica volver a cargar datos.
